@@ -1,0 +1,119 @@
+
+.promo{
+	background: #ddd;
+}
+@media screen and (min-width:1068px) {
+.promo .promo-positon-1{
+	background: url(../images/iphone_upgrade_large.jpg);
+}
+.promo .promo-positon-2{
+	background: url(../images/macos_sierra_large.jpg);
+}
+.promo .promo-positon-3{
+	background: url(../images/music_large.jpg);
+}
+.promo .promo-positon-4{
+	background: url(../images/watchos_large.jpg);
+}	
+.promo {
+	position:relative;
+	width:100%;
+	height:auto;
+	border-bottom:2px solid #fff;
+	overflow:hidden
+}
+.promo .promo-position {
+	border-right:2px solid #fff;
+	border-top:2px solid #fff;
+	width:25%;
+	float:left;
+	height:200px
+}
+.promo .promo-position a {
+	width:100%;
+	height:200px;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:360px 200px
+}
+}
+@media screen and (max-width:1068px) {
+.promo .promo-positon-1{
+	background: url(../images/iphone_upgrade_medium.jpg);
+}
+.promo .promo-positon-2{
+	background: url(../images/macos_sierra_xlarge.jpg);
+}
+.promo .promo-positon-3{
+	background: url(../images/music_medium.jpg);
+}
+.promo .promo-positon-4{
+	background: url(../images/watchos_medium.jpg);
+}	
+.promo {
+	position:relative;
+	width:100%;
+	height:auto;
+	border-bottom:2px solid #fff;
+	overflow:hidden
+}
+.promo .promo-position {
+	width:50%;
+	float:left;
+	height:200px;
+	border-right:2px solid #fff;
+	border-top:2px solid #fff;
+	overflow:hidden
+}
+.promo .promo-position:nth-of-type(2) {
+	border-right:0
+}
+.promo .promo-position a {
+	width:100%;
+	height:200px;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:640px 200px
+}
+
+}
+@media screen and (max-width:735px) {
+.promo .promo-positon-1{
+	background: url(../images/iphone_upgrade_small.jpg);
+}
+.promo .promo-positon-2{
+	background: url(../images/macos_sierra_small.jpg);
+}
+.promo .promo-positon-3{
+	background: url(../images/music_small.jpg);
+}
+.promo .promo-positon-4{
+	background: url(../images/watchos_small.jpg);
+}	
+.promo {
+	position:relative;
+	width:100%;
+	height:auto;
+	border-bottom:2px solid #fff;
+	overflow:hidden
+}
+.promo .promo-position {
+	width:100%;
+	float:left;
+	height:200px;
+	margin:2px 0 0 0;
+	overflow:hidden;
+	z-index:555
+}
+.promo .promo-position a {
+	width:100%;
+	height:200px;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:736px 200px
+}
+
+}
